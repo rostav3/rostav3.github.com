@@ -1,0 +1,161 @@
+body{
+    background:#ffddd6;
+    text-align: center;
+}
+.self-img{
+    margin: 6vmin;
+    margin-bottom: 0;
+    height: 40vmin;
+    width: 40vmin;
+    pointer-events: none;
+    border-radius: 500px;
+    background: url("../assets/img.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+.header-section{
+    background-color: #333333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffddd6;
+}
+.skills-section{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.skills-section h1{
+    margin-bottom: 6vmin;
+}
+.skill-circle{
+    height: 150px;
+    width: 150px;
+    margin: 1.8vmin;
+    line-height: 150px;
+    border-radius: 500px;
+    background: #333333;
+    color: white;
+    display: inline-block;
+    font-size: 28px;
+}
+.skill-circle:hover {
+    box-shadow: 0px 0px 8px 2px #292929c7;
+}
+h1 {
+    font-size: 68px;
+}
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.contact-me {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    background-color: #333333;
+    color: #ffddd6;
+}
+.contact-me h1{
+    margin-bottom: 6vmin;
+}
+
+.contact-me-text{
+    color: white;
+}
+
+.contact-me-text:hover{
+    color: white;
+}
+
+.icon-img{
+    height: 7vmin;
+    width: 7vmin;
+}
+
+.icon-img-big{
+    height: 10vmin;
+    width: 10vmin;
+}
+@media only screen and (min-width: 800px) {
+    h1 {
+        font-size: 62px;
+    }
+
+    .skill-circle {
+        font-size: 25px;
+        height: 130px;
+        line-height: 130px;
+        width: 130px;
+    }
+
+    .contact-me {
+        font-size: 25px;
+    }
+}
+@media only screen and (max-device-width: 1024px)
+and (orientation: portrait) {
+    h1 {
+        font-size: 82px;
+    }
+    .self-img{
+        height: 50vmin;
+        width: 50vmin;
+    }
+
+    .skill-circle{
+        height: 210px;
+        width: 210px;
+        margin: 1.8vmin;
+        line-height: 210px;
+        border-radius: 500px;
+        background: #333333;
+        color: white;
+        display: inline-block;
+        font-size: 42px;
+    }
+    .skills-section{
+        width: 100%;
+        max-width: 100%;
+    }
+    .contact-me {
+        font-size: 42px;
+    }
+
+    .icon-img{
+        height: 8vmin;
+        width: 8vmin;
+    }
+
+    .icon-img-big{
+        height: 12vmin;
+        width: 12vmin;
+    }
+
+
+}
+@media only screen and (min-device-width: 480px)
+and (max-device-width: 800px)
+and (orientation: landscape) {
+    .skills-section{
+        width: 100%;
+        max-width: 100%;
+    }
+   
+
+}
+
